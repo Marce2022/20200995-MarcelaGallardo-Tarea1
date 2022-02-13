@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Orienta&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Orienta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Orienta&family=Patua+One&family=Signika&display=swap');
+
+:root{
+    --color-title: #000;
+    --align-title: left;
+    --width-container: 90%;
+    --height-shape:18em;
+}
+
+body{
+    background-image: url(/static/fondo_about.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: #D0EBE6;
+}
+
+.perfil{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 3fr 2fr;
+    place-items: center;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.about{
+    width: 120%;
+}
+
+.titulo_about{
+    font-family: 'Patua One';
+    font-size: 3.5rem;
+}
+
+.parrafo_about{
+    font-family: 'Orienta';
+    font-size: 1rem;
+    margin: 20px 0;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.foto_about{
+    max-width: 400px;
+    padding:20px;
+    background-color: #000230;
+}
+
+.titulo_experiencias{
+    font-family: 'Patua One';
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.bloque_experiencias{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.caja{
+    padding: 20px;
+    background: #fff;
+    border-top: 5px solid #000230;
+    border-bottom: 5px solid #000230 ;
+    box-shadow: 0 0 20px rgba(4, 1, 58, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen_sae{
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen_esen{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.imagen_davivienda{
+    background: #000000;
+    width: 270px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja_titulo{
+    margin: 20px 0;
+    font-size: 1.7rem;
+    text-align: center;
+    font-family: 'Signika';
+}
+
+.caja_parrafo{
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-family: 'Orienta';
+}
+
+.referencias{
+    background-image: url(/static/fondo_referencias.png);
+    background-size: 1370px 810px;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+
+.titulo_referencias{
+    font-family: 'Patua One';
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.bloque_referencias{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 70px;
+    padding-bottom: 5rem;
+}
+
+.caja_ref{
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(4, 1, 58, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja_ref:hover{
+    background-color: rgb(233, 231, 231);
+}
+
+.imagen_ref{
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+}
+
+.caja_ref_titulo{
+    margin: 20px 0;
+    font-size: 1.7rem;
+    text-align: center;
+    font-family: 'Signika';
+}
+
+.caja_ref_parrafo{
+    font-weight: 300;
+    font-family: 'Orienta';
+}
+

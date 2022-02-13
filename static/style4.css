@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Orienta&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Orienta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Orienta&family=Patua+One&family=Signika&display=swap');
+
+body{
+    background-image: url(/static/fondo.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.titulo{
+    font-family: 'Patua One';
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.parrafo_contacto{
+    font-weight: 300;
+    font-family: 'Orienta';
+    text-align: center;
+    font-size: 25px;
+}
+
+.contacto{
+    width: 90%;
+    max-width: var(--max-width-container);
+    padding: var(--padding-container);
+    margin: 0 auto;
+    
+}
+
+.info_contacto{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 3fr 2fr;
+    place-items: center;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.parrafo_contacto{
+    margin: 20px 0;
+    font-weight: 300;
+    text-align: left;
+}
+
+.pie_de_pagina{
+    padding-top: 30px;
+    border-top: 2px solid #918484;
+    text-align: center;
+    font-size: 30px;
+}
+
+.inicio{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 3fr 2fr;
+    place-items: center;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}

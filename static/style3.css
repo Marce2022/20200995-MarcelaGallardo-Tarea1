@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Orienta&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Orienta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Orienta&family=Patua+One&family=Signika&display=swap');
+
+body{
+    background-image: url(/static/fondo_portafolio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #D0EBE6;
+}
+
+.titulo_portafolio{
+    font-family: 'Patua One';
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.portafolio{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+
+.caja_porta{
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(4, 1, 58, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja_porta:hover{
+    background-color: rgb(233, 231, 231);
+}
+
+.archivo{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.caja_porta_titulo{
+    margin: 20px 0;
+    font-size: 1.7rem;
+    text-align: center;
+    font-family: 'Signika';
+}
+
+.caja_porta_parrafo{
+    font-weight: 300;
+    font-family: 'Orienta';
+    text-align: center;
+}
+
+.ever{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.caja_porta_ever{
+    padding: 30px;
+    background: rgba(2, 2, 2, 0.521);
+    box-shadow: 0 0 20px rgba(4, 1, 58, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja_porta_ever:hover{
+    background: rgba(49, 49, 49, 0.521);
+}
+
+.caja_porta_parrafo_ever{
+    font-weight: 300;
+    font-family: 'Orienta';
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
